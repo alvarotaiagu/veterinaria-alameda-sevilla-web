@@ -1,0 +1,193 @@
+{
+  "_leeme": "Datos del negocio. Tras cambiarlos: node scripts/aplicar.mjs. Guía de campos en RESKIN.md §4.",
+
+  "demo": false,
+  "indexar": false,
+  "idioma": "es",
+  "url": "https://alvarotaiagu.github.io/veterinaria-alameda-sevilla-web/",
+
+  "nombre": "Veterinaria Alameda",
+  "nombre_corto": "Alameda",
+  "lema": "Tu veterinario en la Alameda de Hércules, desde 1987.",
+  "entradilla": "Medicina y cirugía de perros y gatos, con radiología, ecografía y laboratorio propio, en el casco antiguo de Sevilla. Y una sala de espera solo para gatos.",
+  "anio_apertura": 1987,
+
+  "direccion": {
+    "calle": "Alameda de Hércules, 41",
+    "cp": "41002",
+    "localidad": "Sevilla",
+    "provincia": "Sevilla"
+  },
+  "mapa_consulta": "Veterinaria Alameda, Alameda de Hércules 41, 41002 Sevilla",
+  "aparcamiento": null,
+  "pagos": null,
+
+  "telefono": "667 00 45 00",
+  "whatsapp": { "numero": "667 00 45 00", "confirmado": true },
+  "email": "info@veterinariaalameda.com",
+  "cita": { "via": "whatsapp", "enlace": null },
+
+  "horario": {
+    "lunes": [["10:00", "13:30"], ["17:00", "19:30"]],
+    "martes": [["10:00", "13:30"], ["17:00", "19:30"]],
+    "miercoles": [["10:00", "13:30"], ["17:00", "19:30"]],
+    "jueves": [["10:00", "13:30"], ["17:00", "19:30"]],
+    "viernes": [["10:00", "13:30"]],
+    "sabado": [],
+    "domingo": []
+  },
+  "cierres": [],
+
+  "especies": ["perro", "gato"],
+
+  "servicios": [
+    {
+      "id": "canina", "activo": true,
+      "titulo": "Medicina canina",
+      "texto": "Prevención, diagnóstico y tratamiento para tu perro en todas las etapas de su vida, con revisiones y seguimiento.",
+      "incluye": ["Vacunas y desparasitación", "Microchip", "Chequeos con analítica"]
+    },
+    {
+      "id": "felina", "activo": true,
+      "titulo": "Medicina felina",
+      "texto": "Consulta pensada para que el gato pase la visita con el menor estrés posible: sala de espera solo para gatos y un manejo tranquilo.",
+      "incluye": ["Sala de espera para gatos", "Medicina interna felina", "Esterilización y castración"]
+    },
+    {
+      "id": "imagen", "activo": true,
+      "titulo": "Diagnóstico por imagen y laboratorio",
+      "texto": "Radiología, ecografía y analíticas en la propia clínica, para llegar al diagnóstico sin salir de ella.",
+      "incluye": ["Radiología digital", "Ecografía", "Endoscopia", "Laboratorio propio"]
+    },
+    {
+      "id": "cirugia", "activo": true,
+      "titulo": "Cirugía",
+      "texto": "Quirófano equipado y anestesia monitorizada durante toda la intervención, con cirugía mínimamente invasiva cuando el caso lo permite.",
+      "incluye": ["Esterilización por laparoscopia", "Tejidos blandos", "Traumatología y oncología"]
+    },
+    {
+      "id": "hospitalizacion", "activo": true,
+      "titulo": "Hospitalización",
+      "texto": "Vigilancia y cuidados para los pacientes que los necesitan, durante el horario de la clínica o de forma completa si el caso lo requiere.",
+      "incluye": ["Monitorización de constantes", "Fluidoterapia", "Horarios de visita"]
+    },
+    {
+      "id": "odontologia", "activo": true,
+      "titulo": "Salud bucodental",
+      "texto": "Limpieza dental con ultrasonidos bajo sedación y tratamiento de la enfermedad periodontal, para perros y gatos.",
+      "incluye": ["Limpieza con ultrasonidos", "Enfermedad periodontal", "Extracciones"]
+    },
+    {
+      "id": "tienda", "activo": true,
+      "titulo": "Tienda especializada",
+      "texto": "Alimentación, antiparasitarios y accesorios, con el consejo del equipo veterinario para elegir lo que mejor le va a tu mascota.",
+      "incluye": ["Dietas de prescripción", "Antiparasitarios", "Accesorios"]
+    }
+  ],
+
+  "urgencias": {
+    "modo": "telefono",
+    "telefono": "607 50 19 92",
+    "horario": "Fuera del horario de la clínica",
+    "texto": "Fuera de nuestro horario hay un servicio de guardia por teléfono. Durante el horario de la clínica, llámanos al 667 00 45 00."
+  },
+
+  "primera_visita": [
+    { "titulo": "Pide cita", "texto": "Por teléfono o por WhatsApp. Con cita previa se evitan las esperas." },
+    { "titulo": "Trae lo que tengas", "texto": "La cartilla de vacunación, si la tienes, y cualquier informe veterinario anterior." },
+    { "titulo": "Viaja tranquilo", "texto": "Los gatos, en un transportín adecuado; los perros, con correa. Los gatos esperan en una sala aparte, sin perros alrededor." },
+    { "titulo": "Si no puede esperar", "texto": "Llámanos antes de venir para que lo tengamos todo preparado." }
+  ],
+
+  "equipo": [
+    { "nombre": "Antonio Sotillo Salas", "cargo": "Fundador y director clínico · cirugía y medicina interna", "colegiado": null, "foto": "media/equipo/antonio-sotillo.jpg" },
+    { "nombre": "Ana Navarro", "cargo": "Diagnóstico por imagen, cirugía y gestión del centro", "colegiado": null, "foto": "media/equipo/ana-navarro.jpg" }
+  ],
+
+  "sobre": {
+    "titulo": "Una clínica de la Alameda, desde 1987.",
+    "parrafos": [
+      "Veterinaria Alameda nació en 1987 como un pequeño consultorio fundado por Antonio Sotillo, y desde 1992 está en su sede actual, en la Alameda de Hércules.",
+      "Allí han ido sumando radiología digital, ecografía y laboratorio propio, una tienda especializada y una sala de espera solo para gatos, con un equipo formado en manejo sin estrés."
+    ],
+    "destacados": ["Sala de espera para gatos", "Laboratorio propio", "Tienda especializada"]
+  },
+
+  "hero_alt": "Un golden retriever mirando de frente",
+  "instalaciones": [
+    { "foto": "media/instalaciones-1.jpg", "alt": "Fachada de Veterinaria Alameda, con el rótulo del nombre sobre un panel marrón", "pie": "En la Alameda de Hércules" },
+    { "foto": "media/instalaciones-2.jpg", "alt": "Tienda de la clínica, con estanterías de alimentación y accesorios para mascotas", "pie": "Tienda" },
+    { "foto": "media/instalaciones-3.jpg", "alt": "Un veterinario con gorro y mascarilla opera junto al monitor de anestesia", "pie": "Quirófano" }
+  ],
+
+  "resenas": {
+    "nota": 4.3,
+    "recuento": 155,
+    "plataforma": "Google",
+    "enlace": null,
+    "citas": []
+  },
+
+  "preguntas": [
+    { "p": "¿Hace falta pedir cita?", "r": "Es lo recomendable, para que no haya esperas. Puedes llamar al 667 00 45 00 o escribir por WhatsApp." },
+    { "p": "¿Y si es una urgencia?", "r": "Durante el horario de la clínica, llama al 667 00 45 00. Fuera de horario hay un servicio de guardia por teléfono: 607 50 19 92." },
+    { "p": "¿Tenéis sala de espera para gatos?", "r": "Sí, una sala de espera solo para gatos, separada del resto de pacientes." },
+    { "p": "¿Qué animales atendéis?", "r": "Perros y gatos." },
+    { "p": "¿Tenéis tienda?", "r": "Sí: alimentación, dietas de prescripción, antiparasitarios y accesorios, con el asesoramiento del equipo veterinario." }
+  ],
+
+  "consejos_titulo": "Para tu gato, de la mano de la clínica.",
+  "consejos": [
+    {
+      "slug": "traer-gato-sin-estres",
+      "titulo": "Cómo traer a tu gato sin que lo pase mal",
+      "entradilla": "Que el transportín no sea solo el día del veterinario.",
+      "intro": "Con unos días de preparación, el viaje a la consulta se vuelve mucho más llevadero.",
+      "puntos": [
+        "Deja el transportín a la vista en casa unos días antes, con una manta suya dentro, para que no lo asocie solo al veterinario.",
+        "Mejor un transportín que se abra por arriba: así se puede sacar al gato sin forzarlo.",
+        "Puedes usar Feliway en spray dentro del transportín unos 30 minutos antes del viaje.",
+        "En el trayecto, tápalo con una toalla y llévalo sin balancearlo.",
+        "Al llegar, pasa a la sala de espera de gatos, sin perros alrededor."
+      ],
+      "cierre": null
+    },
+    {
+      "slug": "gato-llamar-sin-esperar",
+      "titulo": "Cuándo llamar sin esperar",
+      "entradilla": "Los gatos disimulan cuando algo va mal.",
+      "intro": "Llama cuanto antes si tu gato:",
+      "puntos": [
+        "Entra al arenero y no orina, o apenas orina (sobre todo si es macho: es una urgencia).",
+        "Lleva más de un día sin comer.",
+        "Vomita varias veces seguidas, o está decaído y escondido.",
+        "Respira con la boca abierta o con esfuerzo."
+      ],
+      "cierre": "En horario de la clínica, al 667 00 45 00. Fuera de horario, al teléfono de guardia 607 50 19 92."
+    }
+  ],
+
+  "redes": {
+    "instagram": "https://www.instagram.com/veterinariaalameda",
+    "facebook": "https://www.facebook.com/veterinariaalameda"
+  },
+
+  "legal": {
+    "titular": "Antonio Sotillo Salas",
+    "nif": "75407064T",
+    "registro": null,
+    "responsable_clinico": null
+  },
+
+  "modulos": {
+    "marquee": true,
+    "urgencias": true,
+    "primera_visita": true,
+    "sobre": true,
+    "equipo": true,
+    "instalaciones": true,
+    "resenas": true,
+    "consejos": true,
+    "preguntas": true
+  }
+}

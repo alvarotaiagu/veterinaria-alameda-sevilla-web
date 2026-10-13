@@ -1,0 +1,17 @@
+{
+  "_leeme": "Marca de la demo. Se regenera con scripts/marca-desde-logo.py; campos en RESKIN.md §3.",
+  "slug": "alameda",
+  "personalidad": "cercana",
+  "pareja": "redondeada",
+  "colores": {
+    "fondo": "#FDF4F9",
+    "superficie": "#F7E6EF",
+    "tinta": "#1E1E24",
+    "acento": "#A92781",
+    "acento2": "#E6B3D0"
+  },
+  "logo_en_oscuro": "mono",
+  "densidad": "marca",
+  "duotono": true,
+  "forma_hero": "isotipo"
+}
